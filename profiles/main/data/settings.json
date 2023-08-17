@@ -1,4 +1,6 @@
 {
     "workbench.colorTheme": "Default Light Modern",
-    "haskell.manageHLS": "GHCup"
+    "haskell.manageHLS": "GHCup",
+    "git.openRepositoryInParentFolders": "always",
+    "cmake.configureOnOpen": true
 }
