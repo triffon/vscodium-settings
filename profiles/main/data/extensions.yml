@@ -1,5 +1,9 @@
 disabled: []
 enabled:
+  - id: haskell.haskell
+    uuid: aead9e6c-3483-4ce4-a09f-843e25ce696f
+  - id: justusadam.language-haskell
+    uuid: 270c1d3b-a657-446f-83b8-ab32fd7af006
   - id: llvm-vs-code-extensions.vscode-clangd
     uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
   - id: MS-CEINTL.vscode-language-pack-bg

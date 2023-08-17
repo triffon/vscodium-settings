@@ -55,7 +55,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   ofiles\",\"themeIcon\":{\"id\":\"defaultProfile-icon\"},\"name\":\"Profiles\",\
   \"isBuiltin\":true,\"views\":[]}]"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["yaml",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["yaml",true],["jsonc",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"clangd.typeHierarchyView","isHidden":false},{"id":"clangd.memoryUsage","isHidden":false},{"id":"clangd.ast","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
