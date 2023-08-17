@@ -1,0 +1,4 @@
+disabled: []
+enabled:
+  - id: zokugun.cron-tasks
+    uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
