@@ -1,4 +1,6 @@
 disabled: []
 enabled:
+  - id: MS-CEINTL.vscode-language-pack-bg
+    uuid: e1519e10-4e92-4444-908e-9a0d2b6c0df2
   - id: zokugun.cron-tasks
     uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
