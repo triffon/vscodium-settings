@@ -1,47 +1,16 @@
-vadimcn.vscode-lldb: '{"lastLaunchedVersion":"1.8.1"}'
-workbench.activity.pinnedViewlets: "[{\"id\":\"workbench.view.explorer\",\"name\
-  \":\"Explorer\",\"views\":[{},{\"when\":\"openEditorsVisible\"},{},{\"when\":\
-  \"config.npm.enableScriptExplorer ||
-  npm:showScriptExplorer\"}],\"pinned\":true,\"order\":0,\"visible\":true},{\"id\
-  \":\"workbench.view.search\",\"name\":\"Search\",\"views\":[{}],\"pinned\":tr\
-  ue,\"order\":1,\"visible\":true},{\"id\":\"workbench.view.scm\",\"name\":\"So\
-  urce
-  Control\",\"views\":[],\"pinned\":true,\"order\":2,\"visible\":true},{\"id\":\
-  \"workbench.view.debug\",\"name\":\"Debug\",\"views\":[{},{},{},{},{\"when\":\
-  \"loadedScriptsSupported\"}],\"pinned\":true,\"order\":3,\"visible\":true},{\
-  \"id\":\"workbench.view.extensions\",\"name\":\"Extensions\",\"views\":[{\"wh\
-  en\":\"searchMarketplaceExtensions\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledExtensions && remoteName ==
-  ''\"},{\"when\":\"defaultExtensionViews && hasInstalledExtensions &&
-  remoteName == ''\"},{\"when\":\"defaultExtensionViews &&
-  !hasInstalledExtensions\"},{\"when\":\"searchEnabledExtensions\"},{\"when\":\
-  \"searchDisabledExtensions\"},{\"when\":\"searchBuiltInExtensions\"},{\"when\
-  \":\"searchBuiltInExtensions\"},{\"when\":\"searchBuiltInExtensions\"},{\"when\
-  \":\"defaultExtensionViews &&
-  defaultRecommendedExtensions\"},{\"when\":\"recommendedExtensions\"},{\"when\
-  \":\"nonEmptyWorkspace &&
-  recommendedExtensions\"},{\"when\":\"searchInstalledExtensions\"},{\"when\":\
-  \"searchOutdatedExtensions\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledExtensions && remoteName !=
-  ''\"}],\"pinned\":true,\"order\":4,\"visible\":true},{\"id\":\"workbench.view\
-  .remote\",\"name\":\"Remote
-  Explorer\",\"views\":[],\"pinned\":true,\"order\":4,\"visible\":false},{\"id\
-  \":\"workbench.view.extension.references-view\",\"name\":\"References\",\"ico\
-  nUrl\":{\"$mid\":1,\"path\":\"/usr/share/codium/resources/app/extensions/ms-v\
-  scode.references-view/media/container-icon.svg\",\"scheme\":\"file\"},\"views\
-  \":[{\"when\":\"reference-list.isActive\"}],\"pinned\":true,\"order\":7,\"vis\
-  ible\":false}]"
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.cmake-view","pinned":true,"visible":false,"order":8},{"id":"userDataProfiles","pinned":true,"visible":false}]'
+GitHub.vscode-pull-request-github: '{"VSCode.ABExp.FeatureData":{"features":["account-aa","config.editor.experimental.asyncTokenization","livesharecontinuousaacf","mindaroBinariesVersion","mindaroBinariesVersion-1.0.20210702","mindaroBinariesVersion-1.0.20210723","portForwardingServiceEnabled-development","portForwardingServiceEnabled-production","portForwardingServiceEnabled-staging","RemoveKernelToolbarInInteractiveWindowcf","reusableLinks","shouldUseGrpcService","showAuthBadge"],"assignmentContext":"vsliv368cf:30146710;vsreu685:30147344;python383cf:30185419;vspor879:30202332;vspor708:30202333;vspor363:30204092;binariesv615:30325510;bridge0708:30335490;bridge0723:30353136;vsaa593:30376534;c4g48928:30535728;i26e3531:30792625;asynctok:30821568;","configs":[{"Id":"vscode","Parameters":{"account-aa":true,"config.editor.experimental.asyncTokenization":true,"livesharecontinuousaa":false,"mindaroBinariesVersion":"1.0.20210615.1","mindaroBinariesVersion-1.0.20210702":"1.0.20210708.15","mindaroBinariesVersion-1.0.20210723":"1.0.20210723.6","portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-production":true,"portForwardingServiceEnabled-staging":true,"RemoveKernelToolbarInInteractiveWindow":false,"reusableLinks":true,"shouldUseGrpcService":true,"showAuthBadge":true}}]}}'
+haskell.haskell: '{"pluginInitialized":true}'
+vadimcn.vscode-lldb: '{"lastLaunchedVersion":"1.9.0"}'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.CppRenameActivityBar","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.cmake-view","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.cmake__viewContainer","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.github-pull-requests","pinned":true,"visible":true,"order":8},{"id":"workbench.view.extension.github-pull-request","pinned":true,"visible":false,"order":9},{"id":"workbench.view.sync","pinned":true,"visible":false},{"id":"workbench.view.editSessions","pinned":true,"visible":false},{"id":"userDataProfiles","pinned":true,"visible":false}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
-  \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Файлове\",\"isBuiltin\
-  \":true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"np\
-  m:showScriptExplorer\"},{\"when\":\"clangd.typeHierarchyVisible\"},{\"when\":\
-  \"clangd.memoryUsage.hasData\"},{\"when\":\"clangd.ast.hasData\"}]},{\"id\":\
-  \"workbench.view.search\",\"themeIcon\":{\"id\":\"search-view-icon\"},\"name\
-  \":\"Search\",\"isBuiltin\":true,\"views\":[{}]},{\"id\":\"workbench.view.scm\
-  \",\"themeIcon\":{\"id\":\"source-control-view-icon\"},\"name\":\"Система за
-  контрол на
-  версиите\",\"isBuiltin\":true,\"views\":[{\"when\":\"scm.providerCount &&
+  \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
+  in\":true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"\
+  npm:showScriptExplorer\"},{\"when\":\"clangd.typeHierarchyVisible\"},{\"when\
+  \":\"clangd.memoryUsage.hasData\"},{\"when\":\"clangd.ast.hasData\"}]},{\"id\
+  \":\"workbench.view.search\",\"themeIcon\":{\"id\":\"search-view-icon\"},\"na\
+  me\":\"Search\",\"isBuiltin\":true,\"views\":[{}]},{\"id\":\"workbench.view.s\
+  cm\",\"themeIcon\":{\"id\":\"source-control-view-icon\"},\"name\":\"Source
+  Control\",\"isBuiltin\":true,\"views\":[{\"when\":\"scm.providerCount &&
   scm.providerCount !=
   '0'\"},{}]},{\"id\":\"workbench.view.debug\",\"themeIcon\":{\"id\":\"run-view\
   -icon\"},\"name\":\"Run and
@@ -56,9 +25,9 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   jsDebugHasExcludedCallers && debugType == 'pwa-extensionHost' ||
   jsDebugHasExcludedCallers && debugType == 'pwa-msedge' ||
   jsDebugHasExcludedCallers && debugType == 'pwa-node'\"},{\"when\":\"debugType
-  ==
+  == 'lldb'\"},{\"when\":\"debugType ==
   'lldb'\"}]},{\"id\":\"workbench.view.extensions\",\"themeIcon\":{\"id\":\"ext\
-  ensions-view-icon\"},\"name\":\"Разширения\",\"isBuiltin\":true,\"views\":[]}\
+  ensions-view-icon\"},\"name\":\"Extensions\",\"isBuiltin\":true,\"views\":[]}\
   ,{\"id\":\"workbench.view.remote\",\"themeIcon\":{\"id\":\"remote-explorer-vi\
   ew-icon\"},\"name\":\"Remote
   Explorer\",\"isBuiltin\":true,\"views\":[]},{\"id\":\"workbench.view.extensio\
@@ -66,43 +35,60 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   uiltin\":true,\"views\":[{\"when\":\"testing.providerCount >
   0\"}]},{\"id\":\"workbench.view.extension.references-view\",\"themeIcon\":{\"\
   id\":\"references\"},\"name\":\"References\",\"isBuiltin\":false,\"views\":[{\
-  \"when\":\"reference-list.isActive\"}]},{\"id\":\"workbench.view.extension.cm\
-  ake-view\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/ms-vsco\
-  de.cmake-tools-1.15.31-universal/res/cmake-view-icon2.svg\",\"scheme\":\"file\
-  \"},\"name\":\"CMake\",\"isBuiltin\":false,\"views\":[{\"when\":\"cmake:enabl\
-  eFullFeatureSet &&
+  \"when\":\"reference-list.isActive\"}]},{\"id\":\"workbench.view.extension.Cp\
+  pRenameActivityBar\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.\
+  cmake-view\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/ms-vs\
+  code.cmake-tools-1.15.31-universal/res/cmake-view-icon2.svg\",\"scheme\":\"fi\
+  le\"},\"name\":\"CMake\",\"isBuiltin\":false,\"views\":[{\"when\":\"cmake:ena\
+  bleFullFeatureSet &&
   config.cmake.useProjectStatusView\"},{\"when\":\"cmake:enableFullFeatureSet\"\
-  }]},{\"id\":\"userDataProfiles\",\"themeIcon\":{\"id\":\"defaultProfile-icon\
-  \"},\"name\":\"Profiles\",\"isBuiltin\":true,\"views\":[]}]"
-workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["jsonc",true],["haskell",true],["cmake",true],["cpp",true],["yaml",true],["plaintext",true]]'
-workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"clangd.typeHierarchyView","isHidden":false},{"id":"clangd.memoryUsage","isHidden":false},{"id":"clangd.ast","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false}]'
-workbench.grid.height: "991"
-workbench.grid.size: '{"height":768,"width":1024}'
-workbench.grid.width: "1920"
+  }]},{\"id\":\"workbench.view.extension.cmake__viewContainer\",\"isBuiltin\":f\
+  alse},{\"id\":\"workbench.view.extension.github-pull-requests\",\"themeIcon\"\
+  :{\"id\":\"github\"},\"name\":\"GitHub\",\"isBuiltin\":false,\"views\":[{\"wh\
+  en\":\"ReposManagerStateContext ==
+  'NeedsAuthentication'\"},{\"when\":\"ReposManagerStateContext !=
+  'NeedsAuthentication'\"},{\"when\":\"ReposManagerStateContext !=
+  'NeedsAuthentication'\"}]},{\"id\":\"workbench.view.extension.github-pull-req\
+  uest\",\"themeIcon\":{\"id\":\"git-pull-request\"},\"name\":\"GitHub Pull
+  Request\",\"isBuiltin\":false,\"views\":[{\"when\":\"github:createPullRequest\
+  \"},{\"when\":\"github:createPullRequest\"},{\"when\":\"github:createPullRequ\
+  est\"},{\"when\":\"github:inReviewMode &&
+  !github:createPullRequest\"},{\"when\":\"github:focusedReview &&
+  github:inReviewMode && !github:createPullRequest && github:activePRCount <=
+  1\"},{\"when\":\"github:focusedReview &&
+  !github:stateValidated\"}]},{\"id\":\"workbench.view.sync\",\"isBuiltin\":fal\
+  se},{\"id\":\"workbench.view.editSessions\",\"isBuiltin\":false},{\"id\":\"us\
+  erDataProfiles\",\"themeIcon\":{\"id\":\"defaultProfile-icon\"},\"name\":\"Pr\
+  ofiles\",\"isBuiltin\":true,\"views\":[]}]"
+workbench.auxiliaryBar.size: "123"
+workbench.editor.languageDetectionOpenedLanguages.global: '[["ignore",true],["latex",true],["lldb.disassembly",true],["cmake",true],["cpp",true],["lean4",true],["lean",true],["plaintext",true],["haskell",true],["json",true],["jsonc",true],["yaml",true]]'
+workbench.explorer.views.state.hidden: '[{"id":"workbench.explorer.openEditorsView","isHidden":false},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"outline","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"timeline","isHidden":false},{"id":"npm","isHidden":true},{"id":"clangd.typeHierarchyView","isHidden":false},{"id":"clangd.memoryUsage","isHidden":false},{"id":"clangd.ast","isHidden":false}]'
+workbench.grid.height: "478"
+workbench.grid.size: '{"height":370,"width":494}'
+workbench.grid.width: "926"
 workbench.panel.alignment: center
-workbench.panel.lastNonMaximizedHeight: "300"
+workbench.panel.dimension: bottom
+workbench.panel.lastNonMaximizedHeight: "205"
 workbench.panel.lastNonMaximizedWidth: "300"
 workbench.panel.markers.hidden: '[{"id":"workbench.panel.markers.view","isHidden":false}]'
 workbench.panel.output.hidden: '[{"id":"workbench.panel.output","isHidden":false}]'
-workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","name":"Проблеми","pinned":true,"order":0,"visible":true},{"id":"workbench.panel.output","name":"Изход","pinned":true,"order":1,"visible":true},{"id":"workbench.panel.repl","name":"Конзола
-  за
-  дебъгване","pinned":true,"order":2,"visible":true},{"id":"terminal","name":"Терминал","pinned":true,"order":3,"visible":true},{"id":"workbench.panel.testResults","name":"Test
-  Results","pinned":true,"order":3,"visible":false},{"id":"refactorPreview","name":"Refactor
-  Preview","pinned":true,"visible":false}]'
+workbench.panel.pinnedPanels: '[{"id":"workbench.panel.output","name":"Output","pinned":true,"order":1,"visible":true},{"id":"workbench.panel.testResults","name":"Test
+  Results","pinned":true,"order":3,"visible":false},{"id":"workbench.views.service.panel.8aa0cb0c-922c-4ff5-9385-a25c81f69367","name":"Problems","pinned":true,"visible":true},{"id":"terminal","name":"Terminal","pinned":true,"order":3,"visible":true},{"id":"workbench.panel.terminal","pinned":true,"order":3,"visible":false},{"id":"refactorPreview","name":"Refactor
+  Preview","pinned":true,"visible":false},{"id":"workbench.panel.repl","name":"Debug
+  Console","pinned":true,"order":2,"visible":true},{"id":"workbench.panel.markers","name":"Problems","pinned":true,"order":0,"visible":false}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
-workbench.panel.size: "256"
-workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false}]'
-workbench.sidebar.size: "256"
-workbench.sideBar.size: "256"
-workbench.statusbar.hidden: '["status.workspaceTrust.1692211294343","status.workspaceTrust.8950a7cc5466d24224b6ff6f3dd6318e","status.workspaceTrust.43b1f439645b5b11e99696c1fac15b0e","status.workspaceTrust.0bfc70e18262ebe30b3aefe70b2f7b3a"]'
-workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false}]'
-workbench.view.extension.cmake-view.state.hidden: '[{"id":"cmake.projectStatus","isHidden":false},{"id":"cmake.outline","isHidden":false}]'
+workbench.panel.size: "212"
+workbench.panel.terminal.hidden: '[{"id":"workbench.panel.terminal","isHidden":false}]'
+workbench.scm.views.state.hidden: '[{"id":"scm.mainPane","isHidden":false},{"id":"scm:repository:2941545","isHidden":false},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.repositories","isHidden":true}]'
+workbench.sidebar.size: "170"
+workbench.sideBar.size: "299"
+workbench.statusbar.hidden: '["status.workspaceTrust.1666676406036","status.workspaceTrust.1e722a01b7a3e65abe2c8d1c2a368fad","status.workspaceTrust.1669712896066","status.workspaceTrust.b7c3f80cf303057e7b74c5fac82324d7","status.workspaceTrust.1673334935123","status.workspaceTrust.aef9a1db2446ab8885b6ced8b955e3f9","status.workspaceTrust.1679577863354","status.workspaceTrust.b4034aaa5867acbe22cdee16dff843ad","status.workspaceTrust.f72d99770e4185d255386476b1e9314b"]'
+workbench.view.debug.state.hidden: '[{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"workbench.debug.startView","isHidden":false},{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"loadedModules","isHidden":false},{"id":"lldb.loadedModules","isHidden":false},{"id":"lldb.excludedCallers","isHidden":false}]'
 workbench.view.extension.cmake__viewContainer.state.hidden: '[{"id":"cmake.outline","isHidden":false}]'
-workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","isHidden":false}]'
-workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false}]'
+workbench.view.extension.github-pull-request.state.hidden: '[{"id":"github:createPullRequest","isHidden":false},{"id":"github:compareChanges","isHidden":false},{"id":"prStatus:github","isHidden":false},{"id":"github:activePullRequest","isHidden":false},{"id":"github:activePullRequest:welcome","isHidden":false},{"id":"github:createPullRequestWebview","isHidden":false},{"id":"github:compareChangesFiles","isHidden":false},{"id":"github:compareChangesCommits","isHidden":false}]'
+workbench.view.extension.github-pull-requests.state.hidden: '[{"id":"github:login","isHidden":false},{"id":"pr:github","isHidden":false},{"id":"issues:github","isHidden":false}]'
+workbench.view.extensions.state.hidden: '[{"id":"extensions.popularExtensionsList","isHidden":false},{"id":"extensions.enabledExtensionList","isHidden":false},{"id":"extensions.disabledExtensionList","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"extensions.listView","isHidden":false},{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false}]'
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
-workbench.views.extensions.installed.size: "8"
-workbench.welcomePage.hiddenCategories: '["Setup"]'
-workbench.welcomePage.walkthroughMetadata: "[]"
+workbench.views.extensions.installed.size: "9"
+workbench.views.service.panel.8aa0cb0c-922c-4ff5-9385-a25c81f69367.state.hidden: '[{"id":"workbench.panel.markers.view","isHidden":false}]'
 zokugun.cron-tasks: '{"version":"0.1.2"}'

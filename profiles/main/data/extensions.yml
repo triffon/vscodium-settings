@@ -1,9 +1,13 @@
 disabled: []
 enabled:
+  - id: GitHub.vscode-pull-request-github
+    uuid: 69ddd764-339a-4ecc-97c1-9c4ece58e36d
   - id: haskell.haskell
     uuid: aead9e6c-3483-4ce4-a09f-843e25ce696f
   - id: justusadam.language-haskell
     uuid: 270c1d3b-a657-446f-83b8-ab32fd7af006
+  - id: leanprover.lean4
+    uuid: 5b6ab52b-fd2a-4b80-9794-b6dee13d3718
   - id: llvm-vs-code-extensions.vscode-clangd
     uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
   - id: MS-CEINTL.vscode-language-pack-bg
@@ -13,6 +17,6 @@ enabled:
   - id: twxs.cmake
     uuid: 2be7cf14-2603-402e-9771-fd79df83cdf8
   - id: vadimcn.vscode-lldb
-    uuid: null
+    uuid: bee31e34-a44b-4a76-9ec2-e9fd1439a0f6
   - id: zokugun.cron-tasks
     uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea

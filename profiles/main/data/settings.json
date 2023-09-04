@@ -1,6 +1,14 @@
 {
     "workbench.colorTheme": "Default Light Modern",
+    "window.zoomLevel": 2,
+    "cmake.configureOnOpen": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "workbench.startupEditor": "newUntitledFile",
+    "git.enableSmartCommit": true,
+    "clangd.path": "/home/trifon/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/15.0.3/clangd_15.0.3/bin/clangd",
+    "git.confirmSync": false,
+    "editor.minimap.enabled": false,
+    "git.rebaseWhenSync": true,
     "haskell.manageHLS": "GHCup",
-    "git.openRepositoryInParentFolders": "always",
-    "cmake.configureOnOpen": true
+    "lldb.suppressUpdateNotifications": true
 }
