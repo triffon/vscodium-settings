@@ -10,5 +10,6 @@
     "editor.minimap.enabled": false,
     "git.rebaseWhenSync": true,
     "haskell.manageHLS": "GHCup",
-    "lldb.suppressUpdateNotifications": true
+    "lldb.suppressUpdateNotifications": true,
+    "syncSettings.confirmSync": true
 }
