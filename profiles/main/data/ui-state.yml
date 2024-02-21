@@ -31,7 +31,7 @@ workbench.activity.pinnedViewlets: "[{\"id\":\"workbench.view.explorer\",\"name\
   scode.references-view/media/container-icon.svg\",\"scheme\":\"file\"},\"views\
   \":[{\"when\":\"reference-list.isActive\"}],\"pinned\":true,\"order\":7,\"vis\
   ible\":false}]"
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.cmake-view","pinned":true,"visible":false,"order":8},{"id":"userDataProfiles","pinned":true,"visible":false}]'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.cmake-view","pinned":true,"visible":false,"order":8},{"id":"workbench.panel.chatSidebar","pinned":true,"order":100},{"id":"userDataProfiles","pinned":true,"visible":false}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Файлове\",\"isBuiltin\
   \":true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"np\
@@ -58,22 +58,43 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   jsDebugHasExcludedCallers && debugType == 'pwa-node'\"},{\"when\":\"debugType
   ==
   'lldb'\"}]},{\"id\":\"workbench.view.extensions\",\"themeIcon\":{\"id\":\"ext\
-  ensions-view-icon\"},\"name\":\"Разширения\",\"isBuiltin\":true,\"views\":[]}\
-  ,{\"id\":\"workbench.view.remote\",\"themeIcon\":{\"id\":\"remote-explorer-vi\
-  ew-icon\"},\"name\":\"Remote
+  ensions-view-icon\"},\"name\":\"Разширения\",\"isBuiltin\":true,\"views\":[{\
+  \"when\":\"defaultExtensionViews\"},{\"when\":\"searchExtensionUpdates ||
+  searchOutdatedExtensions\"},{\"when\":\"recommendedExtensions &&
+  workbenchState != 'empty'\"},{\"when\":\"defaultExtensionViews && hasGallery
+  && !hasInstalledExtensions\"},{\"when\":\"searchExtensionUpdates ||
+  searchRecentlyUpdatedExtensions\"},{\"when\":\"recommendedExtensions\"},{\"wh\
+  en\":\"defaultExtensionViews && hasGallery &&
+  !config.extensions.showRecommendationsOnlyOnDemand &&
+  !sortByUpdateDate\"},{\"when\":\"defaultExtensionViews &&
+  hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
+  hasInstalledExtensions\"},{\"when\":\"searchMarketplaceExtensions\"},{\"when\
+  \":\"searchInstalledExtensions\"},{\"when\":\"searchEnabledExtensions\"},{\"w\
+  hen\":\"searchDisabledExtensions\"},{\"when\":\"searchBuiltInExtensions\"},{\
+  \"when\":\"searchWorkspaceUnsupportedExtensions\"},{\"when\":\"builtInExtensi\
+  ons\"},{\"when\":\"builtInExtensions\"},{\"when\":\"builtInExtensions\"},{\"w\
+  hen\":\"searchUnsupportedWorkspaceExtensions\"},{\"when\":\"searchUnsupported\
+  WorkspaceExtensions\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
+  virtualWorkspace\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
+  virtualWorkspace\"},{\"when\":\"searchDeprecatedExtensions\"}]},{\"id\":\"wor\
+  kbench.view.remote\",\"themeIcon\":{\"id\":\"remote-explorer-view-icon\"},\"n\
+  ame\":\"Remote
   Explorer\",\"isBuiltin\":true,\"views\":[]},{\"id\":\"workbench.view.extensio\
   n.test\",\"themeIcon\":{\"id\":\"test-view-icon\"},\"name\":\"Testing\",\"isB\
   uiltin\":true,\"views\":[{\"when\":\"testing.providerCount >
-  0\"}]},{\"id\":\"workbench.view.extension.references-view\",\"themeIcon\":{\"\
-  id\":\"references\"},\"name\":\"References\",\"isBuiltin\":false,\"views\":[{\
-  \"when\":\"reference-list.isActive\"}]},{\"id\":\"workbench.view.extension.cm\
-  ake-view\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/ms-vsco\
-  de.cmake-tools-1.15.31-universal/res/cmake-view-icon2.svg\",\"scheme\":\"file\
-  \"},\"name\":\"CMake\",\"isBuiltin\":false,\"views\":[{\"when\":\"cmake:enabl\
-  eFullFeatureSet &&
-  config.cmake.useProjectStatusView\"},{\"when\":\"cmake:enableFullFeatureSet\"\
-  }]},{\"id\":\"userDataProfiles\",\"themeIcon\":{\"id\":\"defaultProfile-icon\
-  \"},\"name\":\"Profiles\",\"isBuiltin\":true,\"views\":[]}]"
+  0\"},{\"when\":\"testing.isTestCoverageOpen\"}]},{\"id\":\"workbench.view.ext\
+  ension.references-view\",\"themeIcon\":{\"id\":\"references\"},\"name\":\"Ref\
+  erences\",\"isBuiltin\":false,\"views\":[{\"when\":\"reference-list.isActive\
+  \"}]},{\"id\":\"workbench.view.extension.cmake-view\",\"iconUrl\":{\"$mid\":1,\
+  \"path\":\"%%EXTENSION_DATA_PATH%%/ms-vscode.cmake-tools-1.17.16-universal/re\
+  s/cmake-view-icon2.svg\",\"scheme\":\"file\"},\"name\":\"CMake\",\"isBuiltin\
+  \":false,\"views\":[{\"when\":\"cmake:enableFullFeatureSet\"},{\"when\":\"cma\
+  ke:enableFullFeatureSet\"},{\"when\":\"cmake:enableFullFeatureSet\"}]},{\"id\
+  \":\"workbench.panel.chatSidebar\",\"themeIcon\":{\"id\":\"comment-discussion\
+  \"},\"name\":\"Chat\",\"isBuiltin\":true,\"views\":[]},{\"id\":\"userDataProf\
+  iles\",\"themeIcon\":{\"id\":\"defaultProfile-icon\"},\"name\":\"Profiles\",\
+  \"isBuiltin\":true,\"views\":[]}]"
+workbench.activityBar.location: side
 workbench.auxiliaryBar.size: "256"
 workbench.editor.languageDetectionOpenedLanguages.global: '[["jsonc",true],["haskell",true],["cmake",true],["cpp",true],["yaml",true],["plaintext",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"clangd.typeHierarchyView","isHidden":false},{"id":"clangd.memoryUsage","isHidden":false},{"id":"clangd.ast","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false}]'
@@ -85,24 +106,25 @@ workbench.panel.lastNonMaximizedHeight: "300"
 workbench.panel.lastNonMaximizedWidth: "300"
 workbench.panel.markers.hidden: '[{"id":"workbench.panel.markers.view","isHidden":false}]'
 workbench.panel.output.hidden: '[{"id":"workbench.panel.output","isHidden":false}]'
-workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","name":"Проблеми","pinned":true,"order":0,"visible":true},{"id":"workbench.panel.output","name":"Изход","pinned":true,"order":1,"visible":true},{"id":"workbench.panel.repl","name":"Конзола
+workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","pinned":true,"visible":true,"order":0},{"id":"workbench.panel.output","pinned":true,"visible":true,"order":1},{"id":"workbench.panel.repl","pinned":true,"visible":true,"order":2},{"id":"terminal","pinned":true,"visible":true,"order":3},{"id":"workbench.panel.testResults","pinned":true,"visible":false,"order":3},{"id":"~remote.forwardedPortsContainer","pinned":true,"order":5},{"id":"refactorPreview","pinned":true,"visible":false}]'
+workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon":{"id":"markers-view-icon"},"name":"Проблеми","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.output","themeIcon":{"id":"output-view-icon"},"name":"Изход","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.repl","themeIcon":{"id":"debug-console-view-icon"},"name":"Конзола
   за
-  дебъгване","pinned":true,"order":2,"visible":true},{"id":"terminal","name":"Терминал","pinned":true,"order":3,"visible":true},{"id":"workbench.panel.testResults","name":"Test
-  Results","pinned":true,"order":3,"visible":false},{"id":"refactorPreview","name":"Refactor
-  Preview","pinned":true,"visible":false}]'
+  дебъгване","isBuiltin":true,"views":[{"when":"debuggersAvailable"}]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"Терминал","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.testResults","themeIcon":{"id":"test-results-icon"},"name":"Test
+  Results","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"Ports","isBuiltin":true,"views":[{}]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"Refactor
+  Preview","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
 workbench.panel.size: "256"
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false}]'
 workbench.sidebar.size: "256"
 workbench.sideBar.size: "256"
-workbench.statusbar.hidden: '["status.workspaceTrust.1692211294343","status.workspaceTrust.8950a7cc5466d24224b6ff6f3dd6318e","status.workspaceTrust.43b1f439645b5b11e99696c1fac15b0e","status.workspaceTrust.0bfc70e18262ebe30b3aefe70b2f7b3a"]'
+workbench.statusbar.hidden: '["status.workspaceTrust.1692211294343","status.workspaceTrust.8950a7cc5466d24224b6ff6f3dd6318e","status.workspaceTrust.43b1f439645b5b11e99696c1fac15b0e","status.workspaceTrust.0bfc70e18262ebe30b3aefe70b2f7b3a","status.workspaceTrust.c490c00fb30e3f4e82a31250ae62f06b"]'
 workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false}]'
 workbench.view.extension.cmake-view.state.hidden: '[{"id":"cmake.projectStatus","isHidden":false},{"id":"cmake.outline","isHidden":false}]'
 workbench.view.extension.cmake__viewContainer.state.hidden: '[{"id":"cmake.outline","isHidden":false}]'
 workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","isHidden":false}]'
 workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false}]'
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
-workbench.views.extensions.installed.size: "8"
+workbench.views.extensions.installed.size: "9"
 workbench.welcomePage.hiddenCategories: '["Setup"]'
 workbench.welcomePage.walkthroughMetadata: "[]"
 zokugun.cron-tasks: '{"version":"0.1.2"}'

@@ -1,5 +1,7 @@
 disabled: []
 enabled:
+  - id: banacorn.agda-mode
+    uuid: 50315a05-1d1b-44bf-9e2c-be33d1c4a77e
   - id: haskell.haskell
     uuid: aead9e6c-3483-4ce4-a09f-843e25ce696f
   - id: justusadam.language-haskell
