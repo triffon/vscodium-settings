@@ -4,6 +4,5 @@
     "git.openRepositoryInParentFolders": "always",
     "cmake.configureOnOpen": true,
     "agdaMode.connection.agdaPath": "",
-    "agdaMode.connection.agdaVersion": "agda",
-    "agdaMode.connection.agdaLanguageServer": true
+    "agdaMode.connection.agdaVersion": "agda"
 }
