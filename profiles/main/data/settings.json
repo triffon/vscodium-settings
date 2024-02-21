@@ -2,5 +2,8 @@
     "workbench.colorTheme": "Default Light Modern",
     "haskell.manageHLS": "GHCup",
     "git.openRepositoryInParentFolders": "always",
-    "cmake.configureOnOpen": true
+    "cmake.configureOnOpen": true,
+    "agdaMode.connection.agdaPath": "",
+    "agdaMode.connection.agdaVersion": "agda",
+    "agdaMode.connection.agdaLanguageServer": true
 }

@@ -96,7 +96,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"isBuiltin\":true,\"views\":[]}]"
 workbench.activityBar.location: side
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["jsonc",true],["haskell",true],["cmake",true],["cpp",true],["yaml",true],["plaintext",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["jsonc",true],["haskell",true],["cmake",true],["cpp",true],["yaml",true],["plaintext",true],["agda",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"clangd.typeHierarchyView","isHidden":false},{"id":"clangd.memoryUsage","isHidden":false},{"id":"clangd.ast","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false}]'
 workbench.grid.height: "991"
 workbench.grid.size: '{"height":768,"width":1024}'
